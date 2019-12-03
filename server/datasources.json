@@ -1,0 +1,26 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "datasource": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "shoppingDb",
+    "password": "",
+    "name": "datasource",
+    "user": "",
+    "useNewUrlParser": true,
+    "connector": "mongodb"
+  },
+  "local-storage": {
+    "name": "local-storage",
+    "connector": "loopback-component-storage-gridfs",
+    "host": "localhost",
+    "port": 27017,
+    "database": "shoppingDb",
+    "password": "",
+    "username": ""
+  }
+}
