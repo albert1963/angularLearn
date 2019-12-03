@@ -1,9 +1,21 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>intro</ion-title>
-  </ion-toolbar>
-</ion-header>
 
 <ion-content>
+  <ion-slides pager="true">
+    <ion-slide class="step-three">
+      <ion-icon class="icon" name="card"></ion-icon>
+      <h1>Bienvenue</h1>
+      <p>Texteeeeeeeeeeeeeeeee</p>
+    </ion-slide>
 
+    <ion-slide class="step-three">
+      <ion-icon class="icon" name="log-in"></ion-icon>
+      <h1>Connexion</h1>
+      <p>Texteeeee</p>
+
+      <ion-button (click)="finish()" expand="block" ><ion-icon slot="start" name="logo-facebook"></ion-icon> Facebook</ion-button>
+        <ion-button (click)="finish()" expand="block" color="warning"><ion-icon  slot="start" name="call"></ion-icon> Téléphone</ion-button>
+    </ion-slide>
+  </ion-slides>
 </ion-content>
+
+
